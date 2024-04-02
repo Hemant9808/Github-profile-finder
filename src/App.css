@@ -1,8 +1,5 @@
 *{
-  background-color: rgb(25, 33, 69);
- 
-
-  
+  background-color: rgb(25, 33, 69); 
 }
 body{
   
@@ -17,7 +14,7 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  width: 550px;
+  width:80%;
   max-width: 1000px;
   padding: 20px;
   border-radius: 8px;
@@ -26,20 +23,23 @@ body{
 }
 
 .input-wrapper {
-  width: 350px;
+  width: 60%;
+  max-width: 400px;
   display: flex;
   gap: 20px;
   justify-content: center;
   margin-bottom: 20px;
   padding-top: 5px;
+  padding: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
 }
 
 .input-wrapper input {
+  width: 70%;
   padding: 12px;
   font-size: 16px;
-  
+  color: white;
   border-radius: 10px;
 }
 
