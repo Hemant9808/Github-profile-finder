@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
+*{
+  background-color: rgb(25, 33, 69);
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.github-profile-container {
+  background-color: rgb(12, 18, 45);
+  display:flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+  width: 550px;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 8px;
   color: white;
+  margin-top: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.input-wrapper {
+  width: 350px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  
+  border-radius: 10px;
+}
+
+.input-wrapper button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0c0d29e2;
+  color: #faf8f8;
+  cursor: pointer;
+}
+
+.user{
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.avatar{
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
+.name-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name-container p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-info div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
